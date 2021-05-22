@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let p =[];
+    sl=prompt('Nhập độ dài mảng');
+    for(let i=0;i<sl;i++){
+        p[i] = (prompt('nhập giá trị mảng '+i));
+    }
+    for(let i = 0; i<p.length;i++){
+        if (p[i] == '-'){
+            p[i]='_';
+
+        }
+    }document.write(p);
+</script>
+</body>
+</html>

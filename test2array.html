@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let b = [];
+    let p = [];
+    sl = prompt('nhập vào số phần tủ chuỗi');
+    for (let i = 0; i<sl;i++){
+        b = prompt('nhập giá trị chuỗi' + i);
+    }
+    for (let j = 0; j<sl;j++){
+        p = prompt('nhập giá trị chuỗi' + j);
+    }
+
+    if(a=JSON.stringify(b)==JSON.stringify(p)){
+        a==true;
+        document.write('2 mảng bằng nhau')
+    }else {
+        document.write('2 mảng không bằng nhau');
+    }
+
+</script>
+</body>
+</html>

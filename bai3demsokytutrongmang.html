@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let b = [9, 5, 10, 1, 'xanh', 'do', 'tim'];
+    dem = 0;
+    for(let i=0;i<b.length;i++){
+        if(b[i]%2== 0 || (b[i]-1)%2==0){
+            dem++;
+
+        }else {
+            continue;
+        }
+    }document.write(dem);
+
+</script>
+</body>
+</html>
